@@ -5,9 +5,9 @@ body {
 
 header {
   border: 1px solid black;
-  width: 1442px;
+  width: 100%;
   height: 785px;
-  background-image: url(/img/cover.png);
+  background-image: url(./img/cover.png);
   position: relative;
 }
 header img {
@@ -457,6 +457,9 @@ header .menu {
   gap: 120px;
   width: 1053px;
   height: 442px;
+}
+.third_block_row .man-player-mob {
+  display: none;
 }
 .third_block_row .third_block_row_text {
   position: relative;
